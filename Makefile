@@ -1,4 +1,4 @@
-REPO := ilmotta/ants-simulation
+REPO := Jpepetrueno/ants-simulation
 TAG := 1.0.0
 CONTAINER_NAME := ants-simulation
 DOCKER_JVM_OPTS := -XX:+UseContainerSupport -XX:MaxRAMPercentage=85 -XX:+UnlockExperimentalVMOptions

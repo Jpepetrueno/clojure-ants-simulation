@@ -1,6 +1,6 @@
 {:paths ["src"]
 
- :deps {org.clojure/clojure {:mvn/version "1.10.3"}}
+ :deps {org.clojure/clojure {:mvn/version "1.12.0"}}
 
  :aliases
  {:run
@@ -8,11 +8,11 @@
 
   :test
   {:extra-paths ["test"]
-   :extra-deps {lambdaisland/kaocha {:mvn/version "1.0.861"}}
+   :extra-deps {lambdaisland/kaocha {:mvn/version "1.91.1392"}}
    :main-opts ["-m" "kaocha.runner"]}
 
   :uberjar
-  {:replace-deps {com.github.seancorfield/depstar {:mvn/version "2.0.216"}}
+  {:replace-deps {com.github.seancorfield/depstar {:mvn/version "2.1.303"}}
    :exec-fn      hf.depstar/uberjar
    :exec-args    {:main-class demo.core
                   :jvm-opts [

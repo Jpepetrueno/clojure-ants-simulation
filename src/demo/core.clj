@@ -155,9 +155,11 @@
     (start)))
 
 (comment
+
   (-main))
 
 (comment
+
   (dosync
    (reset-pheromones app-state)
    (reset-food app-state)))
